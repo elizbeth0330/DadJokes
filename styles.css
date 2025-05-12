@@ -1,0 +1,111 @@
+/*/* general styling*/
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #686de8;
+	font-family: sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	margin: 0;
+}
+
+
+
+
+/* navigation bar */
+
+#nav-links a:active { color: #fff; }
+#nav-links a:visited { color: #fff; }
+#nav-links a:link { 
+	color: #fff; 
+	text-decoration: none;
+}
+.navHead {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2% 4%;
+}
+.navLinks {
+	flex: 1;
+	text-align: right;
+	font-family: sans-serif;
+	font-size: 15px;
+	
+}
+.navLinks ul li {
+	position: absolute;
+	padding: 8px 12px;
+	display: inline-block;
+	list-style-type: none;
+	
+}
+.navLinks ul li:hover {
+	text-decoration: underline;
+}
+
+
+
+
+
+
+/* container (white box) */
+.container {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+	padding: 50px 20px;
+	text-align: center;
+	max-width: 100%;
+	width: 800px;
+}
+
+h3 {
+	margin: 0;
+	letter-spacing: 2px;
+	opacity: 0.5;
+}
+
+
+
+
+
+
+
+/* the joke */
+.joke {
+	font-size: 30px;
+	line-height: 40px;
+	margin: 50px auto;
+	max-width: 600px;
+}
+
+
+
+
+
+/* the button */
+.btn {
+	background-color: #9f68e0;
+	border: 0;
+	border-radius: 10px;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+	color: #fff;
+	cursor: pointer;
+	padding: 14px 40px;
+	font-size: 16px;
+}
+.btn:active {
+	transform: scale(0.98);
+}
+.btn:focus {
+	outline: 0;
+}
